@@ -1,0 +1,26 @@
+body{
+    background: white;
+}
+
+
+/* Variables Dark theme */
+body.dark-theme{
+    background: black;
+}
+
+/* Button Dark/Light */
+.button{
+    display: flex;
+    align-items: center;
+}
+
+.change-theme{
+    font-size: 25rem;
+    color: yellow;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.change-theme:hover{
+    color: grey;
+}
